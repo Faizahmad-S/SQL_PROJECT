@@ -1,3 +1,5 @@
+-- practice sql queries for the sql course
+
 SELECT AVG(salary_year_avg) as yearly,
      AVG(salary_hour_avg) as hourly
 FROM job_postings_fact
