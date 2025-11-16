@@ -26,18 +26,6 @@ ORDER BY
   avg_salary DESC; 
 
 
-/*
 
-** Key Insight Summary **
--High-Paying Skills are Niche or Operational: The absolute highest salaries are for 
-    hyper-specialized (Solidity) or complex operational skills (DevOps/Cloud tools).
--Cloud Competency is a Major Booster: Knowing AWS, Azure, or GCP—combined with tools 
-    like Snowflake, Databricks, and Kubernetes—is key to breaking the six-figure barrier.
--Python is the Foundation: Python is present in many high-salary stacks, confirming 
-    it's the most valuable general-purpose data language.
--SQL is a Baseline: The fundamental data query language, while its average salary
-    $(\$96,435.33)$ is lower than the cutting-edge tech, it remains a non-negotiable 
-    prerequisite for nearly all data roles.
-*/
 
 
