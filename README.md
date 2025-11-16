@@ -23,7 +23,7 @@ Using this dataset, I focused on answering five key questions:
 2. What skills are required for those top-paying jobs?
 3. What skills are most in demand?
 4. Which skills correlate with higher salaries?
-5. Which skills offer both high salary and high demand — the optimal skills to learn?
+5. Which skills offer both high salary and high demand-the optimal skills to learn?
 ## 🛠️ Tools I Used
 🛢️ **SQL (Structured Query Language)** : SQL was the core of this project. I used it to query, filter, join, and analyze data efficiently.
 
@@ -149,6 +149,7 @@ ORDER BY
   avg_salary DESC; 
 ```
 **5. Most_Optimal_Skills**
+
 This query combines job demand and average salary to identify the most valuable skills for a data analyst to learn. It highlights the skills that are both frequently requested and highly paid — offering the best return on learning investment.
 
 ```sql
@@ -211,6 +212,7 @@ Each query not only served to answer a specific question but also to improve my 
 
 ## 💡 What I Learned
 Analyzing the job postings data provided several meaningful insights into the data analyst job market, especially regarding salaries, skill demand, and the technologies that offer the greatest career advantage.
+
 **1. High-Paying Opportunities Exist in Both Remote and London Roles** : The highest-paying data analyst jobs are not limited to remote positions — several competitive roles are located in London, offering strong salaries comparable to fully remote positions.
 
 **2. Top-Paying Jobs Often Come From Well-Established Companies** : By joining job postings with company data, the results showed that high-paying positions frequently originate from larger or more reputable companies.
