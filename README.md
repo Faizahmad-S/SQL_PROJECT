@@ -4,7 +4,7 @@ Welcome to my repository SQL_PROJECT where we delved in to the data job market s
 
 Through this project, I analysed job posting data to answer some key questions such as top-paying roles, in-demand skills, for high deamd and high salry whats the best combinaton.
 
-You can view the full collection of SQL queries of project here:[SQL_PROJECT](/project_sql/)
+You can view the full collection of SQL queries of project here [SQL_PROJECT](/project_sql/) and results here [SQL_PROJECT_RESULTS](/project_sql_results/)
 
 
 ## Background
@@ -62,6 +62,11 @@ ORDER BY
 	salary_year_avg DESC 
 LIMIT 10;
 ```
+This chart shows the highest-paying analyst jobs, sorted from the top salary downward.
+It highlights clear salary differences across companies for quick comparison.
+
+![Top Paying Jobs](/assets/top_paying_jobs_analyst_roles_graph.png)
+
 **2. Top_Paying_Skills**
 
 After identifying the top-paying roles, this query digs deeper by joining the job postings with skills data. It reveals which skills employers expect for the highest-paying data analyst positions.
@@ -101,6 +106,10 @@ ORDER BY
     salary_year_avg DESC
 
 ```
+This chart shows the top 10 most frequently required skills for Data Analyst roles.
+Skills are sorted in descending order to highlight the most in-demand ones clearly.
+![skill_count](/assets/top10_skill_count_desc.png)
+
 **3. Top_Skills_In_Demand**
 
 This query identifies the skills mentioned most frequently in data analyst job postings. It helps highlight which tools and technologies employers expect analysts to know.
@@ -125,6 +134,18 @@ ORDER BY
   demand_count DESC
 LIMIT 5;
 ```
+
+Below is the ranking of the most in-demand skills based on job market data:
+
+  | Skill     | Demand Count |
+  |-----------|--------------|
+  | sql       | 180,369      |
+  | excel     | 131,822      |
+  | python    | 116,082      |
+  | tableau   | 90,588       |
+  | power bi  | 84,353       |
+
+
 **4. Top_Skills_On_Salary**
 
 This query calculates the average salary associated with each skill.
@@ -148,6 +169,31 @@ GROUP BY
 ORDER BY
   avg_salary DESC; 
 ```
+Here are the Top Skills by Highest Average Salary
+
+| Skill     | Average Salary ($) |
+|-----------|---------------------|
+| fastapi   | 212,500 |
+| svn       | 185,000 |
+| blazor    | 161,000 |
+| apl       | 155,000 |
+| mxnet     | 149,000 |
+| dplyr     | 147,667 |
+| solidity  | 147,000 |
+| pytorch   | 145,000 |
+| numpy     | 144,500 |
+| airflow   | 142,500 |
+| tidyverse | 141,250 |
+| puppeteer | 140,000 |
+| linux     | 139,800 |
+| mongodb   | 138,857 |
+| pandas    | 138,000 |
+| kubernetes| 136,947 |
+| terraform | 134,667 |
+| postgresql| 133,818 |
+| tensorflow| 133,000 |
+| docker    | 131,112 |
+
 **5. Most_Optimal_Skills**
 
 This query combines job demand and average salary to identify the most valuable skills for a data analyst to learn. It highlights the skills that are both frequently requested and highly paid — offering the best return on learning investment.
@@ -205,8 +251,19 @@ ORDER BY
 Limit 10
 ; 
 ```
+ Here are the most Optimal Skills (Demand × Salary)
+
+| Skill     | Demand Count | Average Salary ($) |
+|-----------|--------------|--------------------|
+| sql       | 783 | 98,747.78 |
+| tableau   | 505 | 102,171.66 |
+| python    | 494 | 98,074.43 |
+| excel     | 441 | 88,201.95 |
+| power bi  | 293 | 95,534.53 |
 
 ​
+
+
 Each query not only served to answer a specific question but also to improve my understanding of SQL and database analysis. Through this project, I learned to leverage SQL's powerful data manipulation capabilities to derive meaningful insights from complex datasets.
 
 
