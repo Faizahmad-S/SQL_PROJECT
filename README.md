@@ -270,7 +270,7 @@ Each query not only served to answer a specific question but also to improve my 
 ## 💡 What I Learned
 Analyzing the job postings data provided several meaningful insights into the data analyst job market, especially regarding salaries, skill demand, and the technologies that offer the greatest career advantage.
 
-**1. High-Paying Opportunities Exist in Both Remote and London Roles** : The highest-paying data analyst jobs are not limited to remote positions — several competitive roles are located in London, offering strong salaries comparable to fully remote positions.
+**1. High-Paying Opportunities Exist in Both Remote and London Roles** : The highest-paying data analyst jobs are not limited to remote positions-several competitive roles are located in London, offering strong salaries comparable to fully remote positions.
 
 **2. Top-Paying Jobs Often Come From Well-Established Companies** : By joining job postings with company data, the results showed that high-paying positions frequently originate from larger or more reputable companies.
 
@@ -284,7 +284,7 @@ Skills that consistently rank highly in both demand and salary are SQL and Pytho
 
 **6. Job Platforms Influence How High-Paying Roles Are Found** :Including the ``` job_via ``` field in the first query revealed which job posting platforms tend to host the highest-paying opportunities. This insight helps job seekers focus their efforts on the most effective job boards.
 
-**7. Salary Transparency Varies Widely** : Many job postings do not include salary data — which is why filtering for ```salary_year_avg IS NOT NULL``` is important.
+**7. Salary Transparency Varies Widely** : Many job postings do not include salary data-which is why filtering for ```salary_year_avg IS NOT NULL``` is important.
 ## Conclusions
 This project allowed me to deepen my SQL skills while gaining valuable insights into the data driven job market. Through a series of targeted queries, I explored the highest-paying roles, the skills required to obtain them, and the technologies that are most in demand.
 
