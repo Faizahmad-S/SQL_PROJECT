@@ -196,7 +196,7 @@ Here are the Top Skills by Highest Average Salary
 
 **5. Most_Optimal_Skills**
 
-This query combines job demand and average salary to identify the most valuable skills for a data analyst to learn. It highlights the skills that are both frequently requested and highly paid — offering the best return on learning investment.
+This query combines job demand and average salary to identify the most valuable skills for a data analyst to learn. It highlights the skills that are both frequently requested and highly paid-offering the best return on learning investment.
 
 ```sql
 
